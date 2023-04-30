@@ -93,3 +93,19 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+#createRequest {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  margin-top: 20px !important;
+  font-family: 'greycliff-bold';
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  background-color: #00539f;
+  color: #fff;
+}

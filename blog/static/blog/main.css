@@ -109,3 +109,7 @@ body {
   background-color: #00539f;
   color: #fff;
 }
+
+#category {
+  text-align: right;
+}

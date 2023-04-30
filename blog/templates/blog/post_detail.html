@@ -10,4 +10,17 @@
         <p class="article-content">{{ object.content }}</p>
         </div>
     </article>
+    <button id = "accept">Accept</button>
+    <br></br>
+    <article class="media content-section" id ="myDiv" style="display:none";>
+        <div class="media-body">
+            <p>Email: {{ object.author.email }}</p>
+        </div>
+    </article>
+    <script>
+        document.getElementById("accept").onclick = function() {
+            document.getElementById("myDiv").style.display = "block";
+        };
+    </script>
+    
 {% endblock content %}

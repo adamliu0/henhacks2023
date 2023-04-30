@@ -1,8 +1,2 @@
-Before running the website, install crispy-bootstrap4:
-    pip install crispy-bootstrap4
-
-And if you used a virtual environment, don't forget to activate it:
-    source venv/bin/activate
-
-Run using:
-    pip install crispy-bootstrap4
+Make sure to be in a virtual environment for best practice and install all the required packages 
+from requirements.txt to run the website properly.
